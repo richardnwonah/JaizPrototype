@@ -1,0 +1,69 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background-color: rgb(158, 154, 154);
+}
+#container{
+  margin: 0 37% 0 37%;
+  background-color: white;
+  padding: 1%;
+}
+#logo{
+ display: block;
+ margin-left: 40%;
+
+}
+
+hr {
+  border: none;
+  border-top: 1.5px dashed;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+#headingParagraph{
+  text-align: center;
+  font-weight: bold;
+}
+
+#smallText{
+  font-size: 12px;
+}
+
+#purchase{
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.Amount{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#amountPrice{
+  float: right;
+}
+#aza{
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#Td{
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 140%;
+}
+
+#footerText{
+  letter-spacing: 3px;
+}
+
