@@ -8,7 +8,7 @@ namespace JaizPrototype.Models
         public string AID { get; set; }
         public string RRN { get; set; }
         //public Card Card{ get; set; }
-       // public List<Purchase> Purchase { get; set; }
+        //public List<Purchase> Purchase { get; set; }
         //public Merchant Merchant { get; set; }
     }
 }

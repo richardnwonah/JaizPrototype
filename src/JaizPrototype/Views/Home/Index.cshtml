@@ -4,40 +4,40 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="container">
-<img id="logo" src="~/img/logo.jpg" alt=""Logo><br>
-<p id="headingParagraph">****MERCHANT COPY ****</p>
-<p id="smallText">MERCHANT NAME:</p>
-<P>@Model.Merchant.Name</P>
-<p id="smallText">LOCATION:</p>
-<P>@Model.Merchant.Location</P>
+    <div id="container">
+        <img id="logo" src="~/img/logo.jpg" alt=""Logo><br>
+        <p id="headingParagraph">****MERCHANT COPY ****</p>
+        <p id="smallText">MERCHANT NAME:</p>
+        <P>@Model.Merchant.Name</P>
+        <p id="smallText">LOCATION:</p>
+        <P>@Model.Merchant.Location</P>
 
 
-<P>TERMINAL ID: @Model.Merchant.TerminalId</P>
-<hr>
-<h2 id="purchase">PURCHASE</h2>
-<P>STAN: @Model.Purchase.Stan</P>
-<P>DATE/TIME: @Model.Purchase.Date</P>
+        <P>TERMINAL ID: @Model.Merchant.TerminalId</P>
+        <hr>
+        <h2 id="purchase">PURCHASE</h2>
+        <P>STAN: @Model.Purchase.Stan</P>
+        <P>DATE/TIME: @Model.Purchase.Date</P>
 
-<hr>
-<p class="Amount">AMOUNT: <span id="amountPrice">NGN @Model.Purchase.Amount</span></p>
-<hr>
-<P>Debit @Model.Card.CardType</P>
-<h3 id="aza">539941******3369</h3>
-<p>369/GLOBAL ACCELEREX</p>
-<p>EXPIRY DATE: @Model.Card.ExpiryDate</p>
-<p>AUTHORIZATION CODE: 000000</p>
-<p>OFFLINE CVM</p>
-<hr>
-<h2 id="Td">@Model.Transaction.Status</h2>
-<p>RESPONSE CODE: @Model.Transaction.ResponseCode</p>
-<p>Issuer or switch inoperative</p>
-<p>AID: @Model.Transaction.AID</p>
-<p>RRN:  @Model.Transaction.RRN</p>
-<p>Accelerex 2. 0. 0-090921-LINT</p>
-<p>PTAD: Global Accelerex</p>
+        <hr>
+        <p class="Amount">AMOUNT: <span id="amountPrice">NGN @Model.Purchase.Amount</span></p>
+        <hr>
+        <P>Debit MasterCard</P>
+        <h3 id="aza">539941******3369</h3>
+        <p>369/GLOBAL ACCELEREX</p>
+        <p>EXPIRY DATE: @Model.Card.ExpiryDate</p>
+        <p>AUTHORIZATION CODE: 000000</p>
+        <p>OFFLINE CVM</p>
+        <hr>
+        <h2 id="Td">@Model.Transaction.Status</h2>
+        <p>RESPONSE CODE: @Model.Transaction.ResponseCode</p>
+        <p>Issuer or switch inoperative</p>
+        <p>AID: @Model.Transaction.AID</p>
+        <p>RRN:  @Model.Transaction.RRN</p>
+        <p>Accelerex 2. 0. 0-090921-LINT</p>
+        <p>PTAD: Global Accelerex</p>
 
-<hr>
-<hr>
-<p id="footerText">Thanks for using JAIZ BANK POS</p>
-</div>
+        <hr>
+        <hr>
+        <p id="footerText">Thanks for using JAIZ BANK POS</p>
+    </div>

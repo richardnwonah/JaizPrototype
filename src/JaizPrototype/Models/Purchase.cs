@@ -6,5 +6,6 @@ namespace JaizPrototype.Models
         public int Stan { get; set; }
         public String Date { get; set; }
         public double Amount { get; set; }
+        //public Transaction Transaction { get; set; }
     }
 }
